@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Motion Studio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="app-shell">
+    <div class="workspace">
+      <section class="control-panel" aria-label="Photo position and rotation controls">
+        <div class="panel-heading">
+          <h2>Your photos</h2>
+          <span>Move and rotate</span>
+        </div>
+        <div id="photo-controls"></div>
+      </section>
+
+      <section class="stage-panel" aria-label="Preview">
+        <div class="stage-heading">
+          <div>
+            <h2>Your canvas</h2>
+            <p>Use the sliders to place each photo on the canvas.</p>
+          </div>
+          <span class="stage-tag">LIVE PREVIEW</span>
+        </div>
+        <div id="bg" aria-label="Sky blue photo canvas"></div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
